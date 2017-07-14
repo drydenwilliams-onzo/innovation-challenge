@@ -13,7 +13,6 @@ img {
     height: auto;
 }
 
-
 .logo {
     text-align: center;
     margin-top: 300px;
@@ -30,33 +29,20 @@ figure {
 
 .embeded-video {
     position: absolute;
-}
-
-@media (min-width: 40em) {
-    .embeded-video {
-        border-bottom: 30px solid #FFF;
-        padding: 20px 5px;
-        background-color: #FFF;
-    }
+    height: 200px;
 }
 
 .embeded-video--top {
-    top: 31%;
-    left: 12.5%;
+    top: 32%;
+    left: 13%;
     width: 25%;
-    height: auto;
-}
-
-@media (min-width: 40em) {
-    .embeded-video--top {
-        top: 32%;
-    }
+    height: 200px;
 }
 
 .embeded-video--bottom {
     z-index: 1;
-    bottom: 9%;
-    right: 3.2%;
+    bottom: 11.5%;
+    right: 3.5%;
     width: 25%;
-    height: auto;
+    height: 200px;
 }
