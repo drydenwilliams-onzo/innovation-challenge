@@ -1,0 +1,62 @@
+.home {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    position: relative;
+}
+
+img {
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+
+.logo {
+    text-align: center;
+    margin-top: 300px;
+}
+
+.logo__img {
+    width: 150px;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+.embeded-video {
+    position: absolute;
+}
+
+@media (min-width: 40em) {
+    .embeded-video {
+        border-bottom: 30px solid #FFF;
+        padding: 20px 5px;
+        background-color: #FFF;
+    }
+}
+
+.embeded-video--top {
+    top: 31%;
+    left: 12.5%;
+    width: 25%;
+    height: auto;
+}
+
+@media (min-width: 40em) {
+    .embeded-video--top {
+        top: 32%;
+    }
+}
+
+.embeded-video--bottom {
+    z-index: 1;
+    bottom: 9%;
+    right: 3.2%;
+    width: 25%;
+    height: auto;
+}
