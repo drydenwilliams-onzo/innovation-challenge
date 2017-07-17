@@ -29,20 +29,18 @@ figure {
 
 .embeded-video {
     position: absolute;
-    height: 200px;
+    height: 22vw;
 }
 
 .embeded-video--top {
-    top: 32%;
-    left: 13%;
-    width: 25%;
-    height: 200px;
+    top: 31%;
+    left: 12.5%;
+    width: 26%;
 }
 
 .embeded-video--bottom {
     z-index: 1;
-    bottom: 11.5%;
-    right: 3.5%;
-    width: 25%;
-    height: 200px;
+    bottom: 9%;
+    right: 3%;
+    width: 26%;
 }
